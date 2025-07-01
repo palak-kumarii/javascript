@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#count {
+    font-size: 3rem;
+    display: inline-block;
+    min-width: 80px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
