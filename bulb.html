@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            border: 1px solid black;
+            height: 600px;
+            width: 800px;
+            background-color: black;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+        }
+        
+        .controls {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            height: 20vh;
+            width: 20vw;
+            justify-self: center;
+        }
+        
+        #onbtn {
+            background-color: red;
+            margin: 50px 30px;
+        }
+        
+        #offbtn {
+            margin: 50px 30px;
+        }
+        
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+
+            <img id="bulb" src="https://res.cloudinary.com/dcgghyuav/image/upload/v1751453496/bulb-off_rgjumy.jpg" alt="bulboff">
+
+            <img id="cat" src="https://res.cloudinary.com/dcgghyuav/image/upload/v1751453489/cat-off_pz4bri.jpg" alt="catoff">
+        </div><br>
+        <div class="controls">
+            <button id="onbtn"> SWITCH ON</button>
+            <button id="offbtn">SWITCH OFF</button>
+        </div>
+    </div>
+    <script src="bulb.js"></script>
+</body>
+
+</html>

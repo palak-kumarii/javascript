@@ -2,19 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Counter App</title>
-    <link rel="stylesheet" href="count.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: antiquewhite;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 500px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <span id="count">0</span><br><br>
-        <button id="decrease">Decrease</button>
-        <button id="reset">Reset</button>
+        <h1><b>Counter Application</b></h1>
+        <h2 id="count">0</h2>
+        <button onclick="decrease()">Decrease</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="increase()">Increase</button>
 
-        <button id="increase">Increase</button>
     </div>
     <script src="count.js"></script>
 </body>
